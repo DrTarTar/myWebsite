@@ -10,21 +10,48 @@
         <div class="background">
         </div>
         <div class="ui">
-
+            <div class="links">
+                <div class="Social Media">
+                    <div class="Snapchat">
+                        <a href="https://www.snapchat.com/add/sino12389">Snapchat</a>
+                        <button onclick="fwdQR()" id="QRcodefwd">Click here if the Link does not work, to get to the QR code</button>
+                    </div>
+                    <div class="Github">
+                        <a href="https://github.com/DrTarTar">Github</a>
+                    </div>
+                </div>
+                <div class="Coding">
+                    <div class="Github">
+                        <a href="https://github.com/DrTarTar">Github</a>
+                    </div>
+                </div>
+                <div class="gaming">
+                    <div class="Steam">
+                        <a href="https://steamcommunity.com/profiles/76561199452935050/">Steam</a>
+                    </div>
+                    <div class="cs2">
+                        <a href="https://www.google.com">cs2</a>
+                    </div>
+                    <div class="Roblox">
+                        <a href="https://www.roblox.com/users/1471212357/profile">Roblox</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <style>
         /* CSS */
-        .background {
-            background-color: black;
-            width: 400px;
-            position: absolute;
-                left: 0px;
-                top: 0px;
+        body    {
+            background-color: white;
         }
     </style>
     <script>
         /* JavaScript */
+        let snap = document.getElementsByClassName('Snapchat');
+        const body = document.body;
+        function fwdQR()    {
+            window.location.href = "src/pics/snapchatqr.jpg";
+        }
     </script>
 </body>
 </html>
